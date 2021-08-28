@@ -13,7 +13,7 @@
 
     <footer class="demo">
       <p>
-        Demo E-commerce website built with <a href="https://vuejs.org/">Vue.js</a>, <a href="https://nuxtjs.org/">Nuxt.js</a>, and <a href="https://jamcart.io">Jamcart</a>
+        Demo E-commerce website built with <a href="https://vuejs.org/">Vue.js</a>, <a href="https://nuxtjs.org/">Nuxt.js</a>, and <a href="https://jamcart.io">JamCart</a>
       </p>
       <p>
         Source available on <a href="https://github.com/JamCart/vue-nuxt-demo">GitHub</a>
