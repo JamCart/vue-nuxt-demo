@@ -30,7 +30,7 @@
   font-family: 'Cinzel';
   font-style: normal;
   font-weight: 500;
-  src: url(/Cinzel-SemiBold.woff2) format('woff2');
+  src: url(~assets/Cinzel-SemiBold.woff2) format('woff2');
 }
 
 .demo {
