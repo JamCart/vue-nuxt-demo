@@ -2,18 +2,16 @@
   <main>
     <ul class="product-grid">
       <li v-for="(product, index) in products" :key="product.slug">
-        <NuxtLink :to="`/product/${ product.slug }`">
-          <a class="product">
-            <div class="product-image">
-              <img alt="" height="427" width="640" :src="product.image" :loading="index < 3 ? 'eager' : 'lazy'" />
-            </div>
-            <div class="product-description">
-              {{ product.name }}
-            </div>
-            <div class="product-price">
-              {{ product.price }}
-            </div>
-          </a>
+        <NuxtLink :to="`/product/${ product.slug }`" class="product">
+          <div class="product-image">
+            <img alt="" height="427" width="640" :src="product.image" :loading="index < 3 ? 'eager' : 'lazy'" />
+          </div>
+          <div class="product-description">
+            {{ product.name }}
+          </div>
+          <div class="product-price">
+            {{ product.price }}
+          </div>
         </NuxtLink>
       </li>
     </ul>

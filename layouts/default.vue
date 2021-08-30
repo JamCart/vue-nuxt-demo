@@ -3,7 +3,7 @@
     <nav class="nav">
       <h1 class="logo">
         <NuxtLink to="/">
-          <a>Jewels <!-- Our Demo Website's Title --></a>
+          Jewels <!-- Our Demo Website's Title -->
         </NuxtLink>
       </h1>
       <jamcart-open class="open" />
